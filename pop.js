@@ -24,9 +24,8 @@ console.log(fruits); //[ 'Banana', 'Pera', 'Abacaxi', 'Manga', 'Maça' ] lista c
 let tamanho = fruits.length;
 
 //Este comando remove o último elemento do array fruits (maça).
-fruits.pop(); 
+fruits.pop();
 
 console.log("-----Lista das compras com itens riscados-----");//mensagem final da lista com menos um elemento.
-
 console.log(fruits); //[ 'Banana', 'Pera', 'Abacaxi', 'Manga'] lista com o item removido.
 console.log(tamanho); //4 (novo tamanho do comprimento do array, após a remoção do último elemento (maça).
