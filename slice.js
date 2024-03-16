@@ -20,4 +20,4 @@ let frase = "Uma meta é um sonho com um prazo.";
 //O método slice() é utilizado para extrair uma parte da string frase. Usei índices negativos, no qual, conta a partir do final da string.
 //-19 é o índice que representa o início da parte a ser extraída "s" de "sonho".
 //-13 é o índice que representa o fim da parte a ser extraída "o" de "sonho".
-console.log(frase + "Parte selecionada da frase:" + frase.slice(-19, -13));
+console.log(frase + "Parte selecionada da frase:" + frase.slice(-19, -13));//Uma meta é um sonho com um prazo.Parte selecionada da frase:sonho 
