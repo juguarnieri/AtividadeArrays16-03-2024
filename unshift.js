@@ -12,5 +12,15 @@ console.log("-----Lista das cores-----");//mensagem inicial.
 console.log(colors);// [ 'Marrom', 'Rosa', 'Azul', 'Verde', 'Roxo' ]
 
 
+//Exemplo 2:
 
+//Um array chamado numbers é declarado e inicializado com três elementos: 1, 2 e 3.
+let numbers = [1, 2, 3];
+
+//O método unshift() é usado para adicionar os elementos (0, -1) no início do array numbers. 
+//A variável total é usada para retornar o novo comprimento do array numbers após a adição dos novos elementos.
+let total = numbers.unshift(0, -1,);
+
+console.log(numbers);// o array numbers é exibido com todos os elementos. [ 0, -1, 1, 2, 3 ]
+console.log(total);// representa o comprimento atual do array = 5.
 
