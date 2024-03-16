@@ -10,3 +10,14 @@ names.push("Moisés");
 console.log(names); //[ 'Júlia', 'Gabriel', 'Mateus', 'Fernanda', 'Amanda', 'Moisés' ] exibe a lista com os itens adicionados.
 
 
+// Exemplo 2:
+
+// Um array chamado food é declarado e inicializado com 2 elementos: "arroz", "feijão".
+let food = ["arroz", "feijão"];
+
+//O método push() é utilizado para adicionar novos elementos ao final do array food. 
+//Volta ao novo comprimento do array após a adição dos novos elementos. Esse valor é atribuído à variável total com todos os elementos.
+let total = food.push("frango", "cenoura", "macarrão");
+
+console.log("Lista de todos os alimentos:", food); // Lista de todos os alimentos: [ 'arroz', 'feijão', 'frango', 'cenoura', 'macarrão' ] todos elementos adicionados ao final com uma mensagem.
+console.log(total); // 5 (é o novo comprimento do array, após a adição dos elementos).
