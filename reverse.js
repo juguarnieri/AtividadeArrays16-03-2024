@@ -22,14 +22,14 @@ let numbers = [1, 2, 3, 4, 5, 6];
 //A cópia do slice é invertida.
 let numbersInvertido = numbers.slice(0).reverse();
 
-console.log(numbers); //[ 1, 2, 3, 4, 5, 6] Sem modificação.
-
-console.log(numbersInvertido); // [ 6, 5, 4, 3, 2, 1 ] Números invertidos.
+console.log("Sem modificação:" ,numbers); //Sem modificação: [ 1, 2, 3, 4, 5, 6 ]
+console.log("Números Invertidos:" , numbersInvertido); // Números Invertidos: [ 6, 5, 4, 3, 2, 1 ]
 
 //Criei outra cópia invertida do array original `numbers`, armazenado na variável `numbersInvertidos`. 
 //`numbers.reverse()`,  que inverte a ordem dos elementos no array `numbers`.  
 let numbersInvertidos = numbers.reverse();
 
+console.log("Primeiro elemento do array:");//mensagem
 //Exibiu o primeiro elemento do array `numbers` após a segunda inversão. 
 console.log(numbers[0]); //6
 
