@@ -21,6 +21,6 @@ let numbers = [1, 2, 3];
 //A variável total é usada para retornar o novo comprimento do array numbers após a adição dos novos elementos.
 let total = numbers.unshift(0, -1,);
 
-console.log(numbers);// o array numbers é exibido com todos os elementos. [ 0, -1, 1, 2, 3 ]
+console.log("Todos os elementos:" , numbers);// o array numbers é exibido com todos os elementos. Todos os elementos: [ 0, -1, 1, 2, 3 ]
 console.log(total);// representa o comprimento atual do array = 5.
 
